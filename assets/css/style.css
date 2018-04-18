@@ -21,7 +21,7 @@ h1, h2, h3, p {
     margin-bottom: 20px;
 }
 
-p: last-child {
+p:last-child {
     margin-bottom:0;
 }
 
@@ -84,7 +84,7 @@ nav a {
     line-height: 18px;
 }
 
-nav a: first-child {
+nav a:first-child {
     border-left: 0 none;
 }
 
@@ -92,6 +92,7 @@ nav a: first-child {
 
 #main-container {
     padding-top: 130px;
+    min-height: calc(100vh - 70px);
 }
 
 .main-section {
@@ -138,7 +139,7 @@ h3, .sidebar, h2 {
     margin-right: 5px;
 }
 
-.social: last-child {
+.social:last-child {
     margin-right: 0; 
 }
 
@@ -163,7 +164,7 @@ footer {
     margin: 20px 9 25px;
 }
 
-.work: nth-child (even) {
+.work:nth-child(even) {
     margin-right: 40px;
 }
 
