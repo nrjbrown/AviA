@@ -775,12 +775,19 @@ h5 {
 }
 .bg-light {
   background-color: #e4f1fd;
+  opacity: 0.88;
+  
+}
+.bg {
+  background-image:url("../img/bg/city.svg")
 }
 .bg-accent {
   background-color: #3fa2f7;
 }
 .bg-white {
   background-color: #fff;
+  opacity:0.65;
+  
 }
 .text-accent {
   color: #297fca;
